@@ -1,29 +1,70 @@
-* {
-  box-sizing: border-box;
-}
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
   margin: 1em;
   padding: 1em;
-  background-color: aliceblue;
+  background-color: #F2F2F2;
+  color: #000000;
 }
 
-#img-bg {
-  background-color: #222831;
+header {
+  background-color: #EAE4D5;
+  color: black;
+  margin: auto;
+  border-radius: 10px;
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px, solid;
+  margin: 1em;
 }
 
-#img-div {
-    height: 900px;
-    width: 600px;
-    border-radius: 15px;
-    background-color: #222831;
-}
 
 #tribute-link {
-  color: black;
+  color: red;
+  text-decoration: none;
 }
 
-ul > li {
+.contribution , .quote , .link  {
+  background-color: #EAE4D5;
+  margin: auto;
+  border-radius: 10px;
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px, solid;
   margin: 1em;
+}
+
+.contribution > p {
+  text-decoration: underline;
+  margin: 1em;
+}
+
+#img-div > p {
+  background-color: #EAE4D5;
+  margin: auto;
+  border-radius: 10px;
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px, solid;
+  margin: 1em;
+}
+
+#img-div > img {
+  margin: 1em;
+  padding: 1em;
+  background-color: #EAE4D5;
+  border: 1px, solid;
+  border-radius: 10px;
+}
+
+#image {
+  border-radius: 10px;
+  border: 1px, solid;
+  display: block;
 }
