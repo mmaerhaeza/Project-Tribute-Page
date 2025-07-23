@@ -1,70 +1,73 @@
 
 body {
-  font-family: Helvetica;
+  font-family: 'Times New Roman', Times, serif;
   margin: 1em;
   padding: 1em;
-  background-color: #F2F2F2;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   color: #000000;
+  justify-content: center;
+  justify-items: center;
 }
 
 header {
-  background-color: #EAE4D5;
+  background-color: #F2F2F2;
   color: black;
-  margin: auto;
-  border-radius: 10px;
+  margin: 5px;
+  border-radius: 20px;
   padding-inline-start: 25px;
   padding-inline-end: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px, solid;
+  border: none;
   margin: 1em;
 }
 
 
 #tribute-link {
-  color: red;
-  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
 }
 
 .contribution , .quote , .link  {
-  background-color: #EAE4D5;
+  background-color: #F2F2F2;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 20px;
   padding-inline-start: 25px;
   padding-inline-end: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px, solid;
+  border: none;
   margin: 1em;
 }
 
 .contribution > p {
   text-decoration: underline;
+  font-weight: bold;
   margin: 1em;
 }
 
 #img-div > p {
-  background-color: #EAE4D5;
+  background-color: #F2F2F2;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 20px;
   padding-inline-start: 25px;
   padding-inline-end: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px, solid;
+  border: none;
   margin: 1em;
 }
 
 #img-div > img {
   margin: 1em;
   padding: 1em;
-  background-color: #EAE4D5;
-  border: 1px, solid;
-  border-radius: 10px;
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 20px;
 }
 
 #image {
-  border-radius: 10px;
-  border: 1px, solid;
+  border-radius: 20px;
+  border: none;
   display: block;
 }
