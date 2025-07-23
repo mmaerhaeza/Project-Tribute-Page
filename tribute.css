@@ -18,20 +18,23 @@ header {
   padding-top: 1px;
   padding-bottom: 1px;
   border: none;
-  
+  text-align: center;
+}
+
+header > p {
+  color: darkslategray;
 }
 
 #img-caption > p {
   text-align: center;
   background-color: #F2F2F2;
-  margin: auto;
+  margin: 1rem;
   border-radius: 5px;
   padding-inline-start: 25px;
   padding-inline-end: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
   border: none;
-  margin: 1em;
 }
 
 #tribute-link {
@@ -87,6 +90,7 @@ header {
 
 .quote > p {
   text-align: center;
+  color: darkslategray;
 }
 
 .link > h2 {
