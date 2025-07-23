@@ -1,8 +1,8 @@
 
 body {
   font-family: 'Times New Roman', Times, serif;
-  margin: 1em;
-  padding: 1em;
+  margin: 10px;
+  padding: 10px;
   background-image: linear-gradient(to right, #434343 0%, black 100%);
   color: #000000;
   justify-content: center;
@@ -12,8 +12,20 @@ body {
 header {
   background-color: #F2F2F2;
   color: black;
-  margin: 5px;
-  border-radius: 20px;
+  border-radius: 5px;
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: none;
+  
+}
+
+#img-caption > p {
+  text-align: center;
+  background-color: #F2F2F2;
+  margin: auto;
+  border-radius: 5px;
   padding-inline-start: 25px;
   padding-inline-end: 25px;
   padding-top: 10px;
@@ -22,16 +34,15 @@ header {
   margin: 1em;
 }
 
-
 #tribute-link {
-  color: black;
+  color: darkslategray;
   text-transform: capitalize;
 }
 
 .contribution , .quote , .link  {
   background-color: #F2F2F2;
   margin: auto;
-  border-radius: 20px;
+  border-radius: 5px;
   padding-inline-start: 25px;
   padding-inline-end: 25px;
   padding-top: 10px;
@@ -49,13 +60,14 @@ header {
 #img-div > p {
   background-color: #F2F2F2;
   margin: auto;
-  border-radius: 20px;
+  border-radius: 5px;
   padding-inline-start: 25px;
   padding-inline-end: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
   border: none;
   margin: 1em;
+  image-rendering: crisp-edges;
 }
 
 #img-div > img {
@@ -63,11 +75,20 @@ header {
   padding: 1em;
   background-color: #F2F2F2;
   border: none;
-  border-radius: 20px;
+  border-radius: 5px;
+  display: block;
 }
 
 #image {
-  border-radius: 20px;
+  border-radius: 5px;
   border: none;
   display: block;
+}
+
+.quote > p {
+  text-align: center;
+}
+
+.link > h2 {
+  text-align: center;
 }
