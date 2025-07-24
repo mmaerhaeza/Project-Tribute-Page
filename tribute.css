@@ -21,8 +21,9 @@ header {
   text-align: center;
 }
 
-header > p {
+header > p > em {
   color: darkslategray;
+  font-weight: bold;
 }
 
 #img-caption > p {
@@ -91,6 +92,7 @@ header > p {
 .quote > p {
   text-align: center;
   color: darkslategray;
+  font-weight: bold;
 }
 
 .link > h2 {
