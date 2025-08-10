@@ -5,8 +5,6 @@ body {
   padding: 10px;
   background-image: linear-gradient(to right, #434343 0%, black 100%);
   color: #000000;
-  justify-content: center;
-  justify-items: center;
 }
 
 header {
@@ -15,27 +13,17 @@ header {
   border-radius: 5px;
   padding-inline-start: 25px;
   padding-inline-end: 25px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  border: none;
-  text-align: center;
-}
-
-header > p > em {
-  color: darkslategray;
-  font-weight: bold;
-}
-
-#img-caption > p {
-  text-align: center;
-  background-color: #F2F2F2;
-  margin: 1rem;
-  border-radius: 5px;
-  padding-inline-start: 25px;
-  padding-inline-end: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
   border: none;
+  margin: 1em;
+  text-align: center;
+}
+
+header > p {
+  color: darkslategray;
+  text-align: center;
+  font-size: large;
 }
 
 #tribute-link {
@@ -45,7 +33,6 @@ header > p > em {
 
 .contribution , .quote , .link  {
   background-color: #F2F2F2;
-  margin: auto;
   border-radius: 5px;
   padding-inline-start: 25px;
   padding-inline-end: 25px;
@@ -56,45 +43,64 @@ header > p > em {
 }
 
 .contribution > p {
-  text-decoration: underline;
+  
   font-weight: bold;
+  font-size: large;
   margin: 1em;
+  text-align: left;
 }
 
-#img-div > p {
+#img-caption {
   background-color: #F2F2F2;
-  margin: auto;
+  margin: 1em;
   border-radius: 5px;
   padding-inline-start: 25px;
   padding-inline-end: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
   border: none;
-  margin: 1em;
-  image-rendering: crisp-edges;
-}
-
-#img-div > img {
-  margin: 1em;
-  padding: 1em;
-  background-color: #F2F2F2;
-  border: none;
-  border-radius: 5px;
-  display: block;
+  font-size: large;
 }
 
 #image {
-  border-radius: 5px;
-  border: none;
-  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 .quote > p {
   text-align: center;
-  color: darkslategray;
-  font-weight: bold;
+  font-size: large;
 }
 
 .link > h2 {
   text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+#main {
+  text-align: center;
+}
+
+#tribute-info {
+  text-align: left;
+  font-size: medium;
+}
+
+#img-div {
+  margin: 1em;
+  border-radius: 5px;
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #F2F2F2;
+  border: none;
 }
